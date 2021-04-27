@@ -20,7 +20,8 @@ def main():
     price = subtotal * constants.HST
 
     # output
-    print("\nThe price of the pizza is: ${:,.2f}".format(price))
+    print("")
+    print("The price of a {} inch pizza is: ${:,.2f}".format(diameter, price))
     print("\nDone.")
 
 
